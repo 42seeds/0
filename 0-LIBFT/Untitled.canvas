@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"afc82627d88e91b2","x":-185,"y":2,"width":250,"height":60,"type":"text","text":"LIBFT"},
+		{"id":"e752bdd67d3c9927","x":-529,"y":177,"width":250,"height":60,"type":"text","text":"[MEMMOVE]"}
+	],
+	"edges":[
+		{"id":"8d786feaf9978c48","fromNode":"afc82627d88e91b2","fromSide":"bottom","toNode":"e752bdd67d3c9927","toSide":"top"}
+	]
+}
