@@ -6,9 +6,9 @@ int ebob(int a, int b)
 {
 	int tmp;
 
-	tmp = b;
 	while (b != 0)
 	{
+		tmp = b;
 		b = a % b;
 		a = tmp
 	}
