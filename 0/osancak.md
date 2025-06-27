@@ -1,1 +1,1 @@
-merhaba dunya
+sevgili gi
