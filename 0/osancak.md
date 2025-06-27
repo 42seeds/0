@@ -15,5 +15,3 @@ int ebob(int a, int b)
 	return (a);
 }
 ```
-
-android test
