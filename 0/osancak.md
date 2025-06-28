@@ -15,3 +15,6 @@ int ebob(int a, int b)
 	return (a);
 }
 ```
+
+## 072820252359
+> sevgili günlük, bugün 5 saat libft evosu dinledim.
