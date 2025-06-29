@@ -18,3 +18,10 @@ int ebob(int a, int b)
 
 ## » 202507282359
 > sevgili günlük, bugün 5 saat libft evosu dinledim.
+
+## » 202507292113
+> sorting
+
+```
+
+```
