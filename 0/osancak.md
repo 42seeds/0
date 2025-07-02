@@ -25,8 +25,7 @@ int int_log2(int n)
 		n = n / 2;
 		log++;
 	}
-return (log);
-
+	return (log);
 }
 ```
 
