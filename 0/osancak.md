@@ -14,6 +14,20 @@ int ebob(int a, int b)
 	}
 	return (a);
 }
+
+int int_log2(int n)
+{
+	int log;
+
+	log = 0;
+	while (n > 1)
+	{
+		n = n / 2;
+		log++;
+	}
+return (log);
+
+}
 ```
 
 ## » 202507282359
