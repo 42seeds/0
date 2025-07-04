@@ -90,14 +90,14 @@ int	ft_atoi(char *str)
 	res = 0;
 	while (*str)
 		res = res * 10 + (*str++ - '0');
+
 	return (res);
 }
 
 void	ft_abakus(char *str, int x)
 {
-	int	num;
+	int	num = ft_atoi(str);
 
-	num = ft_atoi(str);
 	ft_putnbr(x);
 	ft_putstr(" x ");
 	ft_putnbr(num);
