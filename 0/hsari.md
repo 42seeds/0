@@ -1,0 +1,1 @@
+.:. sapiens dominabitur astris .:. 
