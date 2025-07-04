@@ -1,5 +1,6 @@
 .:. sapiens dominabitur astris .:. 
 
 
-{{date}} 
+
+
  
