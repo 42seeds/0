@@ -1,4 +1,4 @@
-## » 202507271534
+## » 202506271534
 > sevgili günlük, bugün ebob hesabını hatırlayamadığım için exam-02'den 50 aldım.
 
 ```c
@@ -29,10 +29,10 @@ int int_log2(int n)
 }
 ```
 
-## » 202507282359
+## » 202506282359
 > sevgili günlük, bugün 5 saat libft evosu dinledim.
 
-## » 202507292113
+## » 202506292113
 > sorting
 
 ```
@@ -145,3 +145,5 @@ int	main(int argc, char **argv)
 	return (0);
 }
 ```
+
+## » 202507081959
