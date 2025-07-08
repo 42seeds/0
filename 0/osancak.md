@@ -148,6 +148,20 @@ int	main(int argc, char **argv)
 
 ## » 202507081918
 ```c
+unsigned char	swap_bits(unsigned char c)
+{
+	unsigned char	res;
+	unsigned char	left;
+	unsigned char	right;
+
+	res   = 0;
+	left  = c << 4; // c'nin ilk dörk 
+	right = c >> 4;
+	res |= left;
+	res |= right;
+	return (res);
+}
+
 unsigned char reverse_bit(unsigned char c)
 {
 	unsigned char res;
@@ -161,20 +175,6 @@ unsigned char reverse_bit(unsigned char c)
 		bit = (c >> n) & 1;		// a'yı n bit sağa kaydır , en sağdaki (0. bit'i) al
 		res |= bit << (7- n);   // bit değerini n bit sola kaydır ve res 'e ekle
 	}
-	return (res);
-}
-
-unsigned char	swap_bits(unsigned char c)
-{
-	unsigned char	res;
-	unsigned char	left;
-	unsigned char	right;
-
-	res   = 0;
-	left  = c << 4;
-	right = c >> 4;
-	res |= left;
-	res |= right;
 	return (res);
 }
 ```
