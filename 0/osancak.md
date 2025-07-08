@@ -151,11 +151,11 @@ int	main(int argc, char **argv)
 unsigned char reverse_bit(unsigned char c)
 {
 	unsigned char res;
-	char bit;
-	int n;
+	char 	      bit;
+	char 	      n;
 
 	res = 0;
-	n = -1;
+	n 	= -1;
 	while (n++ < 8)
 	{
 		bit = (c >> n) & 1;		// a'yı n bit sağa kaydır , en sağdaki (0. bit'i) al
