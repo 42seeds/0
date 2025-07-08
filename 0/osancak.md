@@ -163,4 +163,18 @@ unsigned char reverse_bit(unsigned char c)
 	}
 	return (res);
 }
+
+unsigned char	swap_bits(unsigned char c)
+{
+	unsigned char	res;
+	unsigned char	left;
+	unsigned char	right;
+
+	res   = 0;
+	left  = c << 4;
+	right = c >> 4;
+	res |= left;
+	res |= right;
+	return (res);
+}
 ```
