@@ -155,8 +155,8 @@ unsigned char	swap_bits(unsigned char c)
 	unsigned char	right;
 
 	res   = 0;
-	left  = c << 4; // c'nin ilk dörk 
-	right = c >> 4;
+	left  = c << 4; // c'nin ilk dört bitini sona al
+	right = c >> 4; // c'nin son dört bitini başa al
 	res |= left;
 	res |= right;
 	return (res);
