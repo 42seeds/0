@@ -178,3 +178,58 @@ unsigned char reverse_bit(unsigned char c)
 	return (res);
 }
 ```
+
+## » 202507111731
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct s_list
+{
+	struct s_list	*next;
+	void			*data;
+
+}					t_list;
+
+void	lst_cmp(t_list **lst, void *data, int (*cmp)(void *, void *))
+{
+	while (*lst)
+	{
+		if (!cmp((*lst)->data, data))
+			*lst = (*lst)->next;
+		else
+			lst = &(*lst)->next;
+	}
+}
+
+int	bidi(void *x, void *y)
+{
+	if (*(int *)x == *(int *)y)
+		return (0);
+	return (1);
+}
+
+int	main(void)
+{
+	t_list	*a;
+
+	int x = 1;
+	int y = 2;
+	int z = 3;
+
+	a = malloc(sizeof(t_list));
+	a->data = &x;
+	a->next = malloc(sizeof(t_list));
+	a->next->data = &y;
+	a->next->next = malloc(sizeof(t_list));
+	a->next->next->data = &z;
+	a->next->next->next = NULL;
+	lst_cmp(&a, &z, bidi);
+	printf("%d\n", *(int *)a->data);
+	if (a->next)
+		printf("%d\n", *(int *)a->next->data);
+	if (a->next->next)
+		printf("%d\n", *(int *)a->next->next->data);
+}
+
+```
