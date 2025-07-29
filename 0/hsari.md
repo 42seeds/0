@@ -2,7 +2,7 @@
 
 
 
-## :LiComputer: <span style="background:#d4b106">Born2beroot</span>
+## :LiComputer: <font color="#00b0f0">Born2beroot</font>
 
 <font color="#ffff00"><b>Hypervisors </b></font>
 *Type - 1 (Bare Metal)*
