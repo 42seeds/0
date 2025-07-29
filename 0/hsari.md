@@ -1,4 +1,4 @@
-.:. sapiens dominabitur astris .:. 
+*.:. sapiens dominabitur astris .:.* 
 
 
 
