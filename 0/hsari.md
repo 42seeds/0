@@ -22,4 +22,3 @@ Is a security architecture for Linux systems that allows administrators to have 
 - Mandatory access control 
 
 
-
