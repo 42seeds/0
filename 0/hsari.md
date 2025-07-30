@@ -17,9 +17,10 @@ App armor is an security system, proactively protects the operating system and a
 <font color="#ffff00"><b>SELinux</b></font>
 Is a security architecture for Linux systems that allows administrators to have more control over who can access the system. 
 
-- Discretionary access control 
+- **Discretionary access control** 
 	*Files and processes have owners. Users have ability to change permissions.* 
-- Mandatory access control
-	In DAC's root has full access over system. But on MAC's systems like SELinux, administrators set policy for access. 
+- **Mandatory access control**
+	*In DAC's root has full access over system. But on MAC's systems like SELinux, administrators set policy for access.* 
 
 
+SELinux labels settin
