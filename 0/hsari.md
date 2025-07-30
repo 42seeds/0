@@ -23,4 +23,4 @@ Is a security architecture for Linux systems that allows administrators to have 
 	*In DAC's root has full access over system. But on MAC's systems like SELinux, administrators set policy for access.* 
 
 
-SELinux labels settin
+SELinux labels settings over all files, processes and ports. Labels are logical way of grouping things together. 
