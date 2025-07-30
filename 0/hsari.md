@@ -18,7 +18,8 @@ App armor is an security system, proactively protects the operating system and a
 Is a security architecture for Linux systems that allows administrators to have more control over who can access the system. 
 
 - Discretionary access control 
-
-- Mandatory access control 
+	*Files and processes have owners. Users have ability to change permissions.* 
+- Mandatory access control
+	s
 
 
