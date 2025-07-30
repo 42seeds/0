@@ -20,6 +20,6 @@ Is a security architecture for Linux systems that allows administrators to have 
 - Discretionary access control 
 	*Files and processes have owners. Users have ability to change permissions.* 
 - Mandatory access control
-	s
+	In DAC's root has full access over system. But on MAC's systems like SELinux, administrators set policy for access. 
 
 
