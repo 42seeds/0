@@ -17,5 +17,9 @@ App armor is an security system, proactively protects the operating system and a
 <font color="#ffff00"><b>SELinux</b></font>
 Is a security architecture for Linux systems that allows administrators to have more control over who can access the system. 
 
+- Discretionary access control 
+
+- Mandatory access control 
+
 
 
