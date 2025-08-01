@@ -26,4 +26,4 @@ Is a security architecture for Linux systems that allows administrators to have 
 SELinux labels settings over all files, processes and ports. Labels are logical way of grouping things together. 
 
 
-libpam-pwquality 
+libpam-pwquality for  
