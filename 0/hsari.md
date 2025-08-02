@@ -31,3 +31,6 @@ SELinux labels settings over all files, processes and ports. Labels are logical 
 	lists information about all available or the specified block  devices.
 	
 libpam-pwquality 
+getent 
+su
+
