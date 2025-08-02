@@ -26,7 +26,8 @@ Is a security architecture for Linux systems that allows administrators to have 
 SELinux labels settings over all files, processes and ports. Labels are logical way of grouping things together. 
 
 
-## **:LiCommand: Commands** 
-Lsblk 
-**lsblk** lists information about all available or the specified block  devices.
+## **:LiCommand: <font color="#7030a0">Commands</font>** 
+**Lsblk** 
+	lists information about all available or the specified block  devices.
+	
 libpam-pwquality 
