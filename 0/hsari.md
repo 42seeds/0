@@ -6,7 +6,7 @@
 
 <font color="#ffff00"><b>Hypervisors </b></font>
 ***Type - 1 (Bare Metal)***
-These run directly on host's hardware, facilitating optimized resource allocation. Popular examples include ESXi, Hyper-V and Proxmox. They used in server environments. 
+These run directly on host's hardware, facilitating optimized resource allocation. Popular examples include ESXi, Hyper-V and Proxmox. They used in server environments. They don't need a Host OS rather works directly on hardware. Mostly used in servers.
 
 ***Type - 2 (Hosted)***
 These operate as additional layer on top of your existing OS. Mostly used in PC's. 
