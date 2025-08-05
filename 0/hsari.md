@@ -36,5 +36,6 @@ Requiretty / Difference between tty -pty
 	
 libpam-pwquality 
 getent group users -> show users 
+getent group user42 -> show users of the group
 su
 
