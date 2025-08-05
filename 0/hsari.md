@@ -39,4 +39,19 @@ getent group users -> show users
 getent group user42 -> show users of the group
 su
 
-![[Pasted image 20250805183816.png]]
+
+::icObscure 
+In the context of /etc/pam.d/common-password settings on Linux systems, the obscure option is associated with the pam_unix module, which handles traditional Unix authentication (e.g., managing passwords in /etc/passwd or /etc/shadow). The obscure parameter enables a set of basic password strength checks to ensure that passwords are not easily guessable or overly simplistic.
+
+### What obscure Does
+
+When the obscure option is specified in the pam_unix module within /etc/pam.d/common-password, it enforces a series of rudimentary password quality checks. These checks are designed to reject passwords that are deemed too weak or insecure. Specifically, the obscure option typically enforces the following rules:
+
+1. **Minimum Length**: Ensures the password meets a minimum length requirement (often 6 or 8 characters, depending on system configuration).
+2. **Palindrome Check**: Rejects passwords that are palindromes (e.g., "racecar").
+3. **Case-Change-Only Check**: Prevents passwords that are merely case-changed versions of the username (e.g., if the username is "john," the password "John" or "JOHN" would be rejected).
+4. **Similarity Check**: Rejects passwords that are too similar to the old password (e.g., changing only one character).
+5. **Simple Word Check**: May reject passwords that are too simple, such as those based on dictionary words, though this depends on the system's implementation.
+6. **Rotation Check**: Rejects passwords that are simple rotations of the username or previous passwords (e.g., shifting characters).
+
+These checks are relatively basic compared to modern password policies and are intended to provide a minimal level of security.
