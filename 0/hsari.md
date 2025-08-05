@@ -37,7 +37,8 @@ Requiretty / Difference between tty -pty
 libpam-pwquality -> change password policy -> sudo vim /etc/pam.d/common-password
 getent group users -> show users 
 getent group user42 -> show users of the group
-su
+su -> root
+sudo ufw status -> see open ports 
 
 
 ## :LiGlobeLock: Obscure 
