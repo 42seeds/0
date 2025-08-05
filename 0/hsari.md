@@ -34,7 +34,7 @@ Requiretty / Difference between tty -pty
 **Lsblk** 
 	lists information about all available or the specified block  devices.
 	
-libpam-pwquality 
+libpam-pwquality -> change password policy 
 getent group users -> show users 
 getent group user42 -> show users of the group
 su
