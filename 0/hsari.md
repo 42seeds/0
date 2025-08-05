@@ -42,6 +42,8 @@ su -> root
 sudo ufw status -> see open ports 
 groups -> show groups 
 groups <username> -> show user and see it's group 
+hostnamectl -> check hostname 
+hostnamectl set-hostname server1 -> change hostname to server1  -- vim /etc/hosts 
 
 
 :LiGlobeLock: Obscure 
