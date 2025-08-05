@@ -30,6 +30,7 @@ Swap area?
 Primary extended SDA5
 Apt-Aptitude difference 
 Requiretty / Difference between tty -pty 
+Whats the difference between getent groups and groups?
 ## **:LiCommand: <font color="#7030a0">Commands</font>** 
 **Lsblk** 
 	lists information about all available or the specified block  devices.
@@ -39,7 +40,8 @@ getent group users -> show users
 getent group user42 -> show users of the group
 su -> root
 sudo ufw status -> see open ports 
-groups -> show groups
+groups -> show groups 
+groups <username> -> show user and see it's group 
 
 
 ## :LiGlobeLock: Obscure 
