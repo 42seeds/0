@@ -12,10 +12,10 @@ These run directly on host's hardware, facilitating optimized resource allocatio
 These operate as additional layer on top of your existing OS. Mostly used in PC's. 
 
 <font color="#ffff00"><b>AppArmor</b></font>
-App armor is an security system, proactively protects the operating system and applications from external or internal threats. AppArmor offers simpler, path-based approach to security. 
+App armor is an security system, proactively protects the operating system and applications from external or internal threats. AppArmor offers simpler, path-based approach to security. Easier to manage. Enabled by default on Ubuntu /
 
 <font color="#ffff00"><b>SELinux</b></font>
-Is a security architecture for Linux systems that allows administrators to have more control over who can access the system. 
+Is a security architecture for Linux systems that allows administrators to have more control over who can access the system. SELinux offers stricter and granular label based control. Ideal for high-security environments. 
 
 - **Discretionary access control** 
 	*Files and processes have owners. Users have ability to change permissions.* 
