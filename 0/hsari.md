@@ -28,6 +28,7 @@ Chage
 EXT3-EXT4 differences 
 Swap area? 
 Primary extended SDA5
+Apt-Aptitude difference 
 ## **:LiCommand: <font color="#7030a0">Commands</font>** 
 **Lsblk** 
 	lists information about all available or the specified block  devices.
