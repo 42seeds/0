@@ -15,7 +15,7 @@ These operate as additional layer on top of your existing OS. Mostly used in PC'
 App armor is an security system, proactively protects the operating system and applications from external or internal threats. AppArmor offers simpler, path-based approach to security. Easier to manage. Enabled by default on Ubuntu / Debian distributions. 
 
 <font color="#ffff00"><b>SELinux</b></font>
-Is a security architecture for Linux systems that allows administrators to have more control over who can access the system. SELinux offers stricter and granular label based control. Ideal for high-security environments. Preferred with CentOS distributions. Complex to manage. 
+Is a security architecture for Linux systems that allows administrators to have more control over who can access the system. SELinux offers stricter and granular label based control. Ideal for high-security environments. Preferred with CentOS  / Red Hat - Fedora distributions. Complex to manage. 
 
 - **Discretionary access control** 
 	*Files and processes have owners. Users have ability to change permissions.* 
