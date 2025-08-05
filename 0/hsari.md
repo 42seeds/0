@@ -39,6 +39,7 @@ getent group users -> show users
 getent group user42 -> show users of the group
 su -> root
 sudo ufw status -> see open ports 
+groups -> show groups
 
 
 ## :LiGlobeLock: Obscure 
