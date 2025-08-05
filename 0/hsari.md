@@ -27,7 +27,8 @@ SELinux labels settings over all files, processes and ports. Labels are logical 
 
 Difference between tty -pty 
 Chage
-
+EXT3-EXT4 differences 
+Swap area? 
 
 ## **:LiCommand: <font color="#7030a0">Commands</font>** 
 **Lsblk** 
