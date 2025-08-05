@@ -40,7 +40,7 @@ getent group user42 -> show users of the group
 su
 
 
-::icObscure 
+## :LiGlobeLock: Obscure 
 In the context of /etc/pam.d/common-password settings on Linux systems, the obscure option is associated with the pam_unix module, which handles traditional Unix authentication (e.g., managing passwords in /etc/passwd or /etc/shadow). The obscure parameter enables a set of basic password strength checks to ensure that passwords are not easily guessable or overly simplistic.
 
 ### What obscure Does
