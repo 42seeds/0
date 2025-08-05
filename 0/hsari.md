@@ -23,12 +23,13 @@ Is a security architecture for Linux systems that allows administrators to have 
 	*In DAC's root has full access over system. But on MAC's systems like SELinux, administrators set policy for access.* 
 
 
-Difference between tty -pty 
+
 Chage
 EXT3-EXT4 differences 
 Swap area? 
 Primary extended SDA5
 Apt-Aptitude difference 
+Requiretty / Difference between tty -pty 
 ## **:LiCommand: <font color="#7030a0">Commands</font>** 
 **Lsblk** 
 	lists information about all available or the specified block  devices.
