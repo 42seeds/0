@@ -23,17 +23,9 @@ Is a security architecture for Linux systems that allows administrators to have 
 	*In DAC's root has full access over system. But on MAC's systems like SELinux, administrators set policy for access.* 
 
 
-
-Chage
-EXT3-EXT4 differences 
-Swap area? 
-Primary extended SDA5
-Apt-Aptitude difference 
-Requiretty / Difference between tty -pty 
-Whats the difference between getent groups and groups?
 ## **:LiCommand: <font color="#7030a0">Commands</font>** 
-**Lsblk** 
-	lists information about all available or the specified block  devices.
+
+lsblk -> lists information about all available or the specified block  devices.
 	
 libpam-pwquality -> change password policy -> sudo vim /etc/pam.d/common-password
 getent group users -> show users 
@@ -44,7 +36,7 @@ groups -> show groups
 groups <username> -> show user and see it's group 
 hostnamectl -> check hostname 
 hostnamectl set-hostname server1 -> change hostname to server1  -- vim /etc/hosts 
-compgen 
+compgen -u -> see all users 
 
 
 :LiGlobeLock: Obscure 
@@ -63,3 +55,13 @@ When the obscure option is specified in the pam_unix module within /etc/pam.d/co
 6. **Rotation Check**: Rejects passwords that are simple rotations of the username or previous passwords (e.g., shifting characters).
 
 These checks are relatively basic compared to modern password policies and are intended to provide a minimal level of security.
+
+
+
+Chage
+EXT3-EXT4 differences 
+Swap area? 
+Primary extended SDA5
+Apt-Aptitude difference 
+Requiretty / Difference between tty -pty 
+Whats the difference between getent groups and groups?
