@@ -78,7 +78,7 @@ journalctl is used to print the log entries stored in the journal by systemd-jou
 Chage
 EXT3-EXT4 differences 
 Swap area? 
-Primary extended SDA5
+Primary extended SDA5 
 Apt-Aptitude difference 
 Requiretty / Difference between tty -pty 
 Whats the difference between getent groups and groups?
