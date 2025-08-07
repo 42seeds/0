@@ -58,8 +58,7 @@ These checks are relatively basic compared to modern password policies and are i
 
 
 :LiNotebookPen: Journalctl 
-**journalctl** is used to print the log entries stored in the journal
-       by systemd-journald.service and systemd-journal-remote.service.
+journalctl is used to print the log entries stored in the journal by systemd-journald.service and systemd-journal-remote.service.
 
 
 Chage
@@ -69,3 +68,4 @@ Primary extended SDA5
 Apt-Aptitude difference 
 Requiretty / Difference between tty -pty 
 Whats the difference between getent groups and groups?
+Shadow
