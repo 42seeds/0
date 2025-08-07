@@ -42,6 +42,7 @@ sudo vim /var/log/sudo/sudo.log -> see all used commands
 journalctl -> see all commands used since starting of OS
 sudo ufw status numbered -> see open ports as numbered list 
 sudo vim /var/log/sudo/sudo.log -> see sudo log 
+sudo vim /usr/local/bin/monitoring.sh -> monitoring sh directory and file 
 
 
 
