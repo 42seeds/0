@@ -34,6 +34,9 @@ su -> root
 sudo ufw status -> see open ports 
 groups -> show groups 
 groups <username> -> show user and see it's group 
+sudo adduser <username> -> add user 
+sudo adduser <username> <groupname> -> add user to group
+sudo deluser <usern
 hostnamectl -> check hostname 
 hostnamectl set-hostname server1 -> change hostname to server1  -- vim /etc/hosts 
 compgen -u -> see all users 
