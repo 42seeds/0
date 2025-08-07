@@ -39,7 +39,8 @@ hostnamectl set-hostname server1 -> change hostname to server1  -- vim /etc/host
 compgen -u -> see all users 
 sudo chage hsari -l > see password policy 
 sudo vim /var/log/sudo/sudo.log -> see all used commands 
-journalctl -> 
+journalctl -> see all commands used since starting of OS
+
 
 
 :LiGlobeLock: Obscure 
