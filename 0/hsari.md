@@ -37,6 +37,7 @@ groups <username> -> show user and see it's group
 hostnamectl -> check hostname 
 hostnamectl set-hostname server1 -> change hostname to server1  -- vim /etc/hosts 
 compgen -u -> see all users 
+sudo chage hsari -l > see password 
 
 
 :LiGlobeLock: Obscure 
