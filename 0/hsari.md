@@ -73,3 +73,5 @@ Apt-Aptitude difference
 Requiretty / Difference between tty -pty 
 Whats the difference between getent groups and groups?
 Shadow
+RockyOS ve Debian differences
+
