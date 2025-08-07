@@ -39,7 +39,7 @@ sudo adduser <username> <groupname> -> add user to group
 sudo deluser <username> -> delete user
 hostnamectl -> check hostname 
 hostnamectl set-hostname server1 -> change hostname to server1  -- vim /etc/hosts  
-changing username with hostnamectl doesn't affect the hosts file, it's going to be resetted after reboot for full change we should change the hosts file 
+*changing username with hostnamectl doesn't affect the hosts file, it's going to be resetted after reboot for full change we should change the hosts file* 
 compgen -u -> see all users 
 sudo chage hsari -l > see password policy 
 sudo vim /var/log/sudo/sudo.log -> see all used commands 
