@@ -57,7 +57,7 @@ When the obscure option is specified in the pam_unix module within /etc/pam.d/co
 These checks are relatively basic compared to modern password policies and are intended to provide a minimal level of security.
 
 
-::joJournalctl 
+:LiNotebookPen: Journalctl 
 
 
 
