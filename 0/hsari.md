@@ -50,6 +50,8 @@ journalctl -> see all commands used since starting of OS
 sudo ufw status numbered -> see open ports as numbered list 
 sudo vim /usr/local/bin/monitoring.sh -> monitoring sh directory and file 
 
+^ = works as XOR only true returns 
+$ = add as result or define it to the varialbe 
 
 :LiCodeXml: Awk
 (Aho, Weinberger, and Kernighan)
