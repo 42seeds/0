@@ -99,5 +99,6 @@ RockyOS ve Debian differences
 
 
 
+monitoring sh dir 
 
 
