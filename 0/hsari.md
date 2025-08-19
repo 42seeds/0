@@ -104,5 +104,6 @@ pam.d dir
 crontab service start stop
 ufw allow deny delete 
 crontab -e if used its open the actual user's crontab 
-sudo crontab -u root -e will open root's
+sudo crontab -u root -e will open root's crontab 
+
 
