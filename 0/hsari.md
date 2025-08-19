@@ -93,7 +93,7 @@ Tty is teletype and work as normal terminal connection. In essence, ttys are dev
 - Getent is short for get entries. Allow users to access entriesfrom various text files or databases managed by NSS. (Name Service Switch) 
 - Group is only showing the etc/group textfile one entry per line -> <groupname>:password:GID:user_list  
 
-Shadow
+
 RockyOS ve Debian differences
 
 
