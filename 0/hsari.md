@@ -100,5 +100,7 @@ RockyOS ve Debian differences
 
 
 monitoring sh dir 
-
+pam.d dir
+crontab service start stop
+ufw allow deny delete 
 
