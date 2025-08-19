@@ -42,8 +42,7 @@ hostnamectl set-hostname server1 -> change hostname to server1  -- vim /etc/host
 
 sudo ufw status -> see open ports 
 sudo systemctl status <servicename> -> see status of given service
-sudo chage hsari -l -> see password policy  chage - change user password expiry information
-
+sudo chage hsari -l -> see password policy  and change user password expiry information
 sudo vim /etc/login.defs -> password policy settings for aging controls
 libpam-pwquality -> change password policy, upper-lowercase etc.-> `sudo vim /etc/pam.d/common-password
 sudo vim /var/log/sudo/sudo.log -> see all used sudo commands 
