@@ -58,8 +58,6 @@ $ = Matches the ending position of the string
 Awk is a script language used for manipulating data and generating reports. Enables programmer to write tiny but effective programs. Mostly used for pattern scanning and processing. 
 
 
-
-
 :LiNotebookPen: Journalctl 
 journalctl is used to print the log entries stored in the journal by systemd-journald.service and systemd-journal-remote.service.
 
