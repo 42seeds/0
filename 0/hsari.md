@@ -88,7 +88,7 @@ Swap area?
 Primary extended SDA5 
 
 Apt-Aptitude difference 
-Apt is 
+Apt is vibe 
 
 Requiretty / Difference between tty -pty 
 
