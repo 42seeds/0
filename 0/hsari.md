@@ -51,7 +51,8 @@ sudo ufw status numbered -> see open ports as numbered list
 sudo vim /usr/local/bin/monitoring.sh -> monitoring sh directory and file 
 
 ^ = matches the starting position within the string -> ^/dev (works as XOR only true returns)
-$ = Matches the ending position 
+$ = Matches the ending position of the string 
+
 :LiCodeXml: Awk
 (Aho, Weinberger, and Kernighan)
 Awk is a script language used for manipulating data and generating reports. Enables programmer to write tiny but effective programs. Mostly used for pattern scanning and processing. 
