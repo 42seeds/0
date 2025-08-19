@@ -88,7 +88,7 @@ Swap area?
 Primary extended SDA5 
 
 Apt-Aptitude difference 
-Apt is a classical packet manager of unix systems. 
+Apt is a classical packet manager of unix systems and classical interface. 
 
 Requiretty / Difference between tty -pty 
 
