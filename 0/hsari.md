@@ -82,10 +82,6 @@ These checks are relatively basic compared to modern password policies and are i
 
 
 
-Chage
-EXT3-EXT4 differences 
-Swap area? 
-Primary extended SDA5 
 
 **Apt-Aptitude difference** 
 Apt is a classical packet manager of unix systems and classical interface. Aptitude is an old optional packet manager with different resolver strategy and full screen UI and some other features. 
@@ -99,6 +95,6 @@ Tty is teletype and work as normal terminal connection. In essence, ttys are dev
 
 Shadow
 RockyOS ve Debian differences
-LVM
+
 
 
