@@ -88,7 +88,7 @@ Swap area?
 Primary extended SDA5 
 
 Apt-Aptitude difference 
-Apt is a classical packet manager of unix systems and classical interface. 
+Apt is a classical packet manager of unix systems and classical interface. Aptitude is an old optional packet manager with different resolver strategy and full screen UI and some other features. 
 
 Requiretty / Difference between tty -pty 
 
