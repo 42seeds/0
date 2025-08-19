@@ -25,39 +25,48 @@ Is a security architecture for Linux systems that allows administrators to have 
 
 ## **:LiCommand: <font color="#7030a0">Commands</font>** 
 
-lsblk -> lists information about all available or the specified block  devices.
-	
-libpam-pwquality -> change password policy -> sudo vim /etc/pam.d/common-password
-getent group users -> show users 
-getent group user42 -> show users of the group
-su -> root
-sudo ufw status -> see open ports 
-groups -> show groups 
-groups <username> -> show user and see it's group 
+<font color="#ffff00">su </font>-> root
+<font color="#31859b">lsblk</font> -> lists information about all available or the specified block devices.
+<font color="#f79646">getent group users </font>-> show users 
+<font color="#f79646">getent group user42</font> -> show users of the group
+compgen -u -> see all users 
+<font color="#f79646">groups</font> -> show groups 
+<font color="#f79646">groups</font> <username> -> show user and see it's group 
 sudo adduser <username> -> add user 
 sudo adduser <username> <groupname> -> add user to group
 sudo deluser <username> -> delete user
-hostnamectl -> check hostname 
-hostnamectl set-hostname server1 -> change hostname to server1  -- vim /etc/hosts  
+hostnamectl  -> check hostname 
+hostnamectl set-hostname server1 -> change hostname to server1  -- vim /etc/hosts  needs 
 
-*changing username with hostnamectl doesn't affect the hosts file, it's going to be resetted after reboot for full change we should change the hosts file* 
+	changing username with hostnamectl doesn't affect the hosts file, it's going to be resetted after reboot for full change we should change the hosts file
 
-compgen -u -> see all users 
-sudo chage hsari -l > see password policy 
-sudo vim /var/log/sudo/sudo.log -> see all used commands 
+sudo ufw status -> see open ports 
+sudo systemctl status <servicename> -> see status of given service
+sudo chage hsari -l -> see password policy 
+sudo vim /etc/login.defs -> password policy settings for aging controls
+libpam-pwquality -> change password policy, upper-lowercase etc.-> `sudo vim /etc/pam.d/common-password
+sudo vim /var/log/sudo/sudo.log -> see all used sudo commands 
 journalctl -> see all commands used since starting of OS
 sudo ufw status numbered -> see open ports as numbered list 
-sudo vim /var/log/sudo/sudo.log -> see sudo log 
 sudo vim /usr/local/bin/monitoring.sh -> monitoring sh directory and file 
 
 
+:LiCodeXml: Awk
+(Aho, Weinberger, and Kernighan)
+Awk is a script language used for manipulating data and generating reports. Enables programmer to write tiny but effective programs. Mostly used for pattern scanning and processing. 
+
+
+
+
+:LiNotebookPen: Journalctl 
+journalctl is used to print the log entries stored in the journal by systemd-journald.service and systemd-journal-remote.service.
 
 
 :LiGlobeLock: Obscure 
 
 In the context of /etc/pam.d/common-password settings on Linux systems, the obscure option is associated with the pam_unix module, which handles traditional Unix authentication (e.g., managing passwords in /etc/passwd or /etc/shadow). The obscure parameter enables a set of basic password strength checks to ensure that passwords are not easily guessable or overly simplistic.
 
-### What obscure Does
+What obscure Does
 
 When the obscure option is specified in the pam_unix module within /etc/pam.d/common-password, it enforces a series of rudimentary password quality checks. These checks are designed to reject passwords that are deemed too weak or insecure. Specifically, the obscure option typically enforces the following rules:
 
@@ -71,8 +80,6 @@ When the obscure option is specified in the pam_unix module within /etc/pam.d/co
 These checks are relatively basic compared to modern password policies and are intended to provide a minimal level of security.
 
 
-:LiNotebookPen: Journalctl 
-journalctl is used to print the log entries stored in the journal by systemd-journald.service and systemd-journal-remote.service.
 
 
 Chage
@@ -81,7 +88,9 @@ Swap area?
 Primary extended SDA5 
 Apt-Aptitude difference 
 Requiretty / Difference between tty -pty 
-Whats the difference between getent groups and groups?
+Whats the difference between getent groups and groups? 
+- Getent is short for get entries. Allow users to access entriesfrom various text files or databases managed by NSS. (Name Service Switch) 
+- Group is only showing the etc/group textfile one entry per line -> <groupname>:password:GID:user_list  
 Shadow
 RockyOS ve Debian differences
 LVM
