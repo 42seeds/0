@@ -92,7 +92,7 @@ Apt is vibe
 
 Requiretty / Difference between tty -pty 
 
-Tty is telete
+Tty is teletemetry and work as normal terminal connection. Pty is 
 
 Whats the difference between getent groups and groups? 
 - Getent is short for get entries. Allow users to access entriesfrom various text files or databases managed by NSS. (Name Service Switch) 
