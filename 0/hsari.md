@@ -50,9 +50,8 @@ journalctl -> see all commands used since starting of OS
 sudo ufw status numbered -> see open ports as numbered list 
 sudo vim /usr/local/bin/monitoring.sh -> monitoring sh directory and file 
 
-^ = works as XOR only true returns)
-$ = add as result or define it to the variable or add it to the existing variable's end 
-
+^ = matches the starting position within the string -> ^/dev (works as XOR only true returns)
+$ = Matches the ending position 
 :LiCodeXml: Awk
 (Aho, Weinberger, and Kernighan)
 Awk is a script language used for manipulating data and generating reports. Enables programmer to write tiny but effective programs. Mostly used for pattern scanning and processing. 
