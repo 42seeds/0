@@ -32,6 +32,7 @@ Is a security architecture for Linux systems that allows administrators to have 
 compgen -u -> see all users 
 <font color="#f79646">groups</font> -> show groups 
 <font color="#f79646">groups</font> <username> -> show user and see it's group 
+sudo addgroup <
 sudo adduser <username> -> add user 
 sudo adduser <username> <groupname> -> add user to group
 sudo deluser <username> -> delete user
