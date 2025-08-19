@@ -51,7 +51,7 @@ sudo ufw status numbered -> see open ports as numbered list
 sudo vim /usr/local/bin/monitoring.sh -> monitoring sh directory and file 
 
 ^ = works as XOR only true returns 
-$ = add as result or define it to the varialbe 
+$ = add as result or define it to the variable or add it to the existing variable's end 
 
 :LiCodeXml: Awk
 (Aho, Weinberger, and Kernighan)
