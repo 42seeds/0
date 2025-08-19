@@ -86,12 +86,18 @@ Chage
 EXT3-EXT4 differences 
 Swap area? 
 Primary extended SDA5 
+
 Apt-Aptitude difference 
+Apt is 
+
 Requiretty / Difference between tty -pty 
+
 Whats the difference between getent groups and groups? 
 - Getent is short for get entries. Allow users to access entriesfrom various text files or databases managed by NSS. (Name Service Switch) 
 - Group is only showing the etc/group textfile one entry per line -> <groupname>:password:GID:user_list  
+
 Shadow
 RockyOS ve Debian differences
 LVM
+
 
