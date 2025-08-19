@@ -91,7 +91,6 @@ Primary extended SDA5
 Apt is a classical packet manager of unix systems and classical interface. Aptitude is an old optional packet manager with different resolver strategy and full screen UI and some other features. 
 
 **Requiretty / Difference between tty -pty** 
-
 Tty is teletype and work as normal terminal connection. In essence, ttys are devices that enabling typing.  Pty is psuedo telemetry and it acts like terminal but it's not a real terminal. 
 
 **Whats the difference between getent groups and groups?** 
