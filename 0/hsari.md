@@ -87,14 +87,14 @@ EXT3-EXT4 differences
 Swap area? 
 Primary extended SDA5 
 
-Apt-Aptitude difference 
+**Apt-Aptitude difference** 
 Apt is a classical packet manager of unix systems and classical interface. Aptitude is an old optional packet manager with different resolver strategy and full screen UI and some other features. 
 
-Requiretty / Difference between tty -pty 
+**Requiretty / Difference between tty -pty** 
 
 Tty is teletype and work as normal terminal connection. In essence, ttys are devices that enabling typing.  Pty is psuedo telemetry and it acts like terminal but it's not a real terminal. 
 
-Whats the difference between getent groups and groups? 
+**Whats the difference between getent groups and groups?** 
 - Getent is short for get entries. Allow users to access entriesfrom various text files or databases managed by NSS. (Name Service Switch) 
 - Group is only showing the etc/group textfile one entry per line -> <groupname>:password:GID:user_list  
 
