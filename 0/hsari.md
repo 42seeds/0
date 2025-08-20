@@ -99,10 +99,10 @@ RockyOS ve Debian differences
 
 
 
-monitoring sh dir 
-pam.d dir
+monitoring sh dir -> /usr/local/bin/monitoring.sh 
+pam.d dir -> /etc/pam.d/common-password 
 crontab service start stop -> sudo service cron stop / start 
-ufw allow deny delete 
+ufw allow deny delete -> sudo ufw allow <port number> 
 crontab -e if used its open the actual user's crontab 
 sudo crontab -u root -e will open root's crontab 
 
