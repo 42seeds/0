@@ -101,7 +101,7 @@ RockyOS ve Debian differences
 
 monitoring sh dir 
 pam.d dir
-crontab service start stop
+crontab service start stop -> sudo service cron stop / start 
 ufw allow deny delete 
 crontab -e if used its open the actual user's crontab 
 sudo crontab -u root -e will open root's crontab 
