@@ -20,7 +20,7 @@ int int_log2(int n)
 	int log;
 
 	log = 0;
-	while (n > 1)
+	while (n > 1n
 	{
 		n = n / 2;
 		log++;
